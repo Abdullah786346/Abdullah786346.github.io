@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "add-project-links",
+    "gh-pages",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "add-project-links": "main",
+    "gh-pages": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "add-project-links",
+    "gh-pages",
+    "origin"
+  ]
+}
