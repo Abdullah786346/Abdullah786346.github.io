@@ -48,20 +48,20 @@ const Hero = () => {
         {/* Text Content */}
         <div className="text-left md:w-1/2 flex flex-col justify-center">
           <span className="text-[#01eeff] text-glow-cyan text-xs sm:text-sm md:text-base font-semibold uppercase tracking-[0.2em] mb-2">
-            Welcome to my World
+            Welcome to abdullahsajid.me
           </span>
-          <h1 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-light tracking-wide mb-1 leading-none">
-            Hello, It&apos;s Me
+          <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-2 leading-tight">
+            Muhammad Abdullah <span className="text-[#01eeff] text-glow-cyan">(Abdullah Sajid)</span>
           </h1>
-          <h2 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-3 leading-tight">
-            Muhammad Abdullah
+          <h2 className="text-gray-200 text-lg sm:text-xl md:text-2xl font-semibold mb-3">
+            Full-Stack Web Developer &amp; Next.js Specialist
           </h2>
           <p className="text-gray-300 text-base sm:text-lg md:text-xl lg:text-2xl mb-3 font-medium min-h-[36px]">
             I&apos;m a <span className="text-[#01eeff] text-glow-cyan font-bold">{text}</span>
             <span className="animate-pulse text-[#01eeff]">|</span>
           </p>
           <p className="text-gray-400 text-sm sm:text-base md:text-lg max-w-lg mb-6 leading-relaxed">
-            A passionate engineer dedicated to building responsive, scalable full-stack web applications and exceptional user experiences.
+            Passionate software engineer building high-performance Next.js applications, responsive React user interfaces, and robust Node.js backend systems.
           </p>
 
           {/* Social Links & Action Button */}
@@ -106,7 +106,7 @@ const Hero = () => {
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] rounded-full overflow-hidden border-2 border-[#01eeff] shadow-[0_0_30px_rgba(1,238,255,0.3)] bg-gray-950 flex justify-center items-center">
               <Image
                 src="/assets/goodimage.png"
-                alt="Muhammad Abdullah"
+                alt="Muhammad Abdullah (Abdullah Sajid) - Full-Stack Developer & Next.js Specialist"
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"

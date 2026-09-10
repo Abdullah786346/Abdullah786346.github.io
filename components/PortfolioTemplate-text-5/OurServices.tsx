@@ -47,21 +47,21 @@ const ServiceModal: React.FC<{ service: Service; onClose: () => void }> = ({ ser
 export default function ServicesSection() {
   const [services] = useState<Service[]>([
     {
-      title: 'UI/UX Design',
-      description: 'Crafting pixel-perfect interface structures using Figma and Canva, placing focus on modern responsive layout architectures.',
-      modalContent: 'As a UI/UX Designer, I prioritize human-centered design principles. I construct intuitive workflows, wireframes, and high-fidelity mockups in Figma, focusing on unified design tokens, typography scale, responsive grids, and accessible contrast ratios.',
+      title: 'UI/UX Design & Architecture',
+      description: 'Crafting responsive, human-centered UI/UX design wireframes and modern web interfaces using Figma and Canva.',
+      modalContent: 'As a UI/UX Designer, Muhammad Abdullah prioritizes human-centered design principles. I construct intuitive user workflows, wireframes, and high-fidelity mockups in Figma, focusing on unified design tokens, typography scale, responsive grids, and accessible contrast ratios.',
       icon: FaPaintBrush,
     },
     {
-      title: 'Frontend Development',
-      description: 'Creating high-performance, single-page application systems with React.js, Next.js, and utility-first Tailwind CSS.',
-      modalContent: 'My core frontend skill set enables me to translate visual drafts into interactive web code. I specialize in building responsive Next.js apps with smooth state operations, Redux flow control, optimized bundle loading, and SEO indexing structures.',
+      title: 'Next.js & Frontend Engineering',
+      description: 'Building ultra-fast, SEO-optimized React.js & Next.js web applications with Tailwind CSS and Redux Toolkit.',
+      modalContent: 'My core frontend skill set enables me to translate visual drafts into performant web code. I specialize in building responsive Next.js apps with server-side rendering (SSR), smooth state operations, Redux flow control, optimized bundle loading, and search engine optimization (SEO).',
       icon: FaLaptopCode,
     },
     {
-      title: 'Backend Engineering',
-      description: 'Building secure RESTful APIs, caching systems with Redis, and containerized configurations with Docker.',
-      modalContent: 'I design server architectures using Node.js, Express, and Python. I use Redis for API caching to increase speeds, write clean relational or document storage interfaces, and package environments with Docker for reliable execution.',
+      title: 'Full-Stack Backend Development',
+      description: 'Engineering secure RESTful APIs, high-speed Redis caching, Node.js services, and Docker containerized deployments.',
+      modalContent: 'I design robust server architectures using Node.js, Express, and Python. I leverage Redis for high-speed API response caching, write clean relational or document database interfaces, and package production environments with Docker for reliable software deployment.',
       icon: FaServer,
     },
   ]);

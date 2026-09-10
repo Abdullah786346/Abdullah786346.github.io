@@ -126,15 +126,13 @@ const Footer: React.FC = () => {
 
             <h3 className="text-xl font-bold tracking-wide">
               <span className="text-[#01eeff] text-glow-cyan">
-                M.
-              </span>
-              Abdullah
+                Abdullah
+              </span>{" "}
+              Sajid
             </h3>
 
             <p className="text-gray-400 text-sm leading-relaxed font-light">
-              BS Computer Science student & Full-Stack Developer
-              specializing in React/Next.js, Node.js, Redis,
-              Docker, and clean interactive designs.
+              Muhammad Abdullah (Abdullah Sajid) - BS Computer Science student &amp; Full-Stack Web Developer specializing in Next.js, React, Node.js, TypeScript, Docker, and Redis.
             </p>
 
             <div className="space-y-3 pt-2">
@@ -307,12 +305,12 @@ const Footer: React.FC = () => {
           <div className="text-center md:text-right font-light text-xs text-gray-500">
 
             <p>
-              © {currentYear} Muhammad Abdullah.
+              © {currentYear} Muhammad Abdullah (Abdullah Sajid).
               All rights reserved.
             </p>
 
             <p className="mt-1">
-              Built with Next.js & Tailwind CSS
+              abdullahsajid.me • Built with Next.js &amp; Tailwind CSS
             </p>
 
           </div>

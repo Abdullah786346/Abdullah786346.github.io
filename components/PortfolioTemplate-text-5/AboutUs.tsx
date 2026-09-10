@@ -7,7 +7,7 @@ import { SiNextdotjs, SiTailwindcss, SiRedux, SiRedis, SiFigma } from 'react-ico
 const ABOUT_CONTENT = {
   title: "About",
   subtitle: "Full-Stack Web Developer & UI/UX Designer",
-  description: "I am a BS Computer Science student (Semester 7) at PMAS-Arid Agriculture University, Rawalpindi. With a solid foundation from my Frontend Developer Internship at Codic Solution and independent projects, I specialize in building highly interactive and performant web applications. I bring together technical logic (Node.js, Docker, Redis, Python) and frontend aesthetics (React.js, Next.js, Tailwind CSS, Figma) to create seamless user journeys.",
+  description: "Muhammad Abdullah (Abdullah Sajid) is a BS Computer Science student (Semester 7) at PMAS-Arid Agriculture University, Rawalpindi. With a solid foundation from a Frontend Developer Internship at Codic Solution and high-impact independent software projects, Abdullah specializes in building highly interactive, scalable, and SEO-optimized web applications. He seamlessly integrates robust backend logic (Node.js, Express, Docker, Redis, Python) with modern frontend architectures (React.js, Next.js, TypeScript, Tailwind CSS, Figma) to create exceptional digital web products.",
   linkedInUrl: "https://www.linkedin.com/in/muhammad-abdullah-7572762b9",
   breakpoint: 768
 };
@@ -80,7 +80,7 @@ export default function AboutMeSection() {
               <div className="relative w-full h-full rounded-2xl overflow-hidden border border-white/10 shadow-[0_0_20px_rgba(1,238,255,0.15)] bg-slate-900">
                 <Image
                   src="/assets/circle.png"
-                  alt="Muhammad Abdullah"
+                  alt="Muhammad Abdullah (Abdullah Sajid) - Software Engineer & Full-Stack Web Developer"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                   fill
                   sizes="(max-width: 640px) 100vw, 300px"

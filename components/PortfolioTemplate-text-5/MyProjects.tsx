@@ -68,7 +68,7 @@ const ProjectGallery: React.FC = () => {
               <div className="relative h-48 w-full bg-slate-950/60 overflow-hidden border-b border-white/5">
                 <Image
                   src={project.src}
-                  alt={project.title}
+                  alt={`${project.title} - Full-Stack Portfolio Project by Muhammad Abdullah (Abdullah Sajid)`}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-contain p-4 transition-transform duration-500 transform group-hover:scale-105"
