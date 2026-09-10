@@ -18,6 +18,7 @@ const NAV_LINKS: NavLink[] = [
   { id: 'about', label: 'About', to: 'AboutUs' },
   { id: 'qualification', label: 'Resume', to: 'Qualification' },
   { id: 'services', label: 'Services', to: 'OurServices' },
+  { id: 'faq', label: 'FAQ', to: 'FAQ' },
   { id: 'projects', label: 'Projects', to: 'MyProjects' },
   { id: 'contact', label: 'Contact', to: 'ContactMe' },
 ];
@@ -53,9 +54,9 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 w-full glass-panel bg-[#030712]/70 text-white z-50 transition-all duration-300 shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
       <div className="flex justify-between items-center max-w-7xl mx-auto px-6 py-4">
         {/* Logo */}
-        <Link href="/" className="flex items-center space-x-2 text-xl font-bold tracking-wider text-white hover:opacity-90 transition-opacity">
-          <span className="text-[#01eeff] text-glow-cyan">M.</span>
-          <span>Abdullah</span>
+        <Link href="/" className="flex items-center space-x-1.5 text-xl font-bold tracking-wider text-white hover:opacity-90 transition-opacity">
+          <span className="text-[#01eeff] text-glow-cyan">Abdullah</span>
+          <span>Sajid</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -92,7 +93,7 @@ const Navbar = () => {
           
           <div className="flex flex-col items-center space-y-8 mt-8">
             <Link href="/" className="text-3xl font-bold tracking-wider text-white mb-6" onClick={closeMenu}>
-              <span className="text-[#01eeff] text-glow-cyan">M.</span>Abdullah
+              <span className="text-[#01eeff] text-glow-cyan">Abdullah </span>Sajid
             </Link>
             {NAV_LINKS.map(link => (
               <ScrollNavLink
